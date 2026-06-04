@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # FastAPI Engine Link
-FASTAPI_URL = st.secrets.get("FASTAPI_URL", "https://your-render-app-name.onrender.com/predict")
+FASTAPI_URL = "https://telco-churn-backend-ayci.onrender.com/predict"
 
 # ─── CLEAN PANEL UI CSS ────────────────────────────────────────────────────────
 st.markdown(
